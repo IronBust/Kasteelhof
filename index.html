@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- responsive mode mobile-->
+    <title>
+      Estaminet Kasteelhof
+    </title>
+    <link rel="stylesheet" href="style.css" /> 
+    <link rel="preconnect" href="https://fonts.googleapis.com" /> <!-- police ecriture-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link 
+    href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&family=Satisfy&display=swap" rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header  -->
+    <header id="accueil">
+        <nav class="main-nav">
+            <button 
+            class="nav-toggler"
+            aria-controls="main-navlist"
+            aria-expanded="false"
+            >
+                <img src="ressources/BurgerMenu.svg" alt="Ouvrir et fermer le menu">
+            </button>
+            <ul id="main-navlist">
+                <li><a href="#accueil">Accueil</a></li>
+                <!--<li><a href="#presentation">Présentation</a></li> -->
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1 class="main-title">Estaminet Het Kasteelhof</h1>
+            <p class="main-subtitle">Spécialités Flandre- Hainaut-Artois</p>
+            <a href="#menu" class="hero-link hero-link-1">
+                <span>Menu</span>
+                <img src="ressources/menu-food.svg" alt="">
+            </a>
+            <a href="#contact" class="hero-link hero-link-2">
+              <span>Contact</span>
+              <img src="ressources/contact-pin.svg" alt="">
+          </a>
+            
+        </div>
+    </header>
+    <main>
+      <!-- <section class="about" id="valeurs">
+        <h2 class="section-title">
+          <span>Welkom in Vlaanderen</span>
+        </h2>
+        <p class="section-subtitle">bienvenue en flandres</p>
+
+        <div class="container about-content">
+          <div class="about-text">
+            
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa
+              sit error aliquid a, ipsa, quae alias, corporis id quos voluptas
+              beatae labore aut natus consequuntur porro sunt! Ratione, hic
+              voluptates?
+            </p>
+            
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa
+              sit error aliquid a, ipsa, quae alias, corporis id quos voluptas
+              beatae labore aut natus consequuntur porro sunt! Ratione, hic
+              voluptates?
+            </p>
+          </div>
+          <div
+            class="about-slideshow"
+            role="region"
+            aria-roledescription="carousel"
+            aria-label="coupe de cheveux"
+          >
+            <div class="slideshow-images-container" role="group">
+              <img
+                src="ressources/slide-1.jpg"
+                aria-roledescription="slide"
+                alt="coiffeur coupant des cheveux avec un peigne et un ciseau"
+                class="active"
+              />
+              <img
+                src="ressources/slide-2.jpg"
+                aria-roledescription="slide"
+                alt="coiffeur rasant une nuque"
+              />
+              <img
+                src="ressources/slide-3.jpg"
+                aria-roledescription="slide"
+                alt="coiffeur utilisant un rasoir électrique"
+              />
+            </div>
+            <div
+              class="dots fade-slide-dots"
+              role="group"
+              aria-label="Boutons de controle"
+            >
+              <button
+                class="dot active"
+                data-fadeIndex="1"
+                aria-label="Montrer l'image 1"
+                aria-disabled="true"
+              ></button>
+              <button
+                class="dot"
+                data-fadeIndex="2"
+                aria-label="Montrer l'image 2"
+                aria-disabled="false"
+              ></button>
+              <button
+                class="dot"
+                data-fadeIndex="3"
+                aria-label="Montrer l'image 3"
+                aria-disabled="false"
+              ></button>
+            </div>
+          </div>
+        </div>
+      </section> -->
+        <!-- Menu -->
+        <section class="menu" id="menu">
+          <div class="slider">
+            <div class="img-box">
+              <img src="ressources/menu/a.png" class="slider-img">
+              
+            </div>
+      
+            <button class="btn" onclick="prev()">Prev</button>
+            <button class="btn" onclick="next()">Next</button>
+          </div>
+        </section>
+
+        <section class="contact" id="contact">
+          <h2 class="section-title">
+            <span>Nous retrouver</span>
+            
+          </h2>
+          <p class="section-subtitle"> Toutes réservation par téléphone<br>A partir de 20 personnes: menu spécial groupes (tarif préférentiel)</p>
+          
+          <div class="container contact-content">
+            <div class="addresses">
+              <div class="address-block">
+                <p></p>
+                <p>8 rue saint Nicolas, 59670 Cassel</p>
+                <p>Estaminet Het Kasteelhof</p>
+                <p>03 28 40 59 29</p>
+                <a href="https://www.facebook.com/profile.php?id=100054243681468">
+                  <img src="ressources/facebook.svg" alt="Visiter la page Facebook du Kasteelhof">
+                </a>
+              </div>
+            </div>
+            <div class="schedule">
+              <div class="schedule-table">
+                <h3 class="heading-h3">Horaire d'ouverture</h3>
+                <p><span>Lundi</span> <span>Fermé</span></p>
+              <p><span>Mardi</span> <span>Fermé</span></p>
+              <p><span>Mercredi</span> <span>Fermé</span></p>
+              <p><span>Jeudi</span> <span>11:00-22:00</span></p>
+              <p><span>Vendredi</span> <span>11:00-22:00</span></p>
+              <p><span>Samedi</span> <span>11:00-22:00</span></p>
+              <p><span>Dimanche</span> <span>1:00-22:00</span></p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+      
+
+    </main>
+    <footer>
+      <a href="#"> Estaminet Kasteelhof, Tous droits réservés </a>
+    </footer>
+    <!-- About Section -->
+    <script src="script.js"></script>
+  </body>
+</html>
