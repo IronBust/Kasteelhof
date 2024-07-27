@@ -524,7 +524,7 @@ body {
   }
 
   .slider-img {
-    width: 70%;
+    width: 60%;
     max-height: 500px; /* Réduire la hauteur maximale pour les petits écrans */
   }
 }
@@ -540,6 +540,7 @@ body {
   }
 
   .slider-img {
+    width: 55%;
     max-height: 400px; /* Réduire davantage la hauteur maximale pour les très petits écrans */
   }
 }
