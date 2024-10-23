@@ -42,7 +42,7 @@ function handleSmoothScroll(e) {
 // 'js/mian.js'
 
 var slider_img = document.querySelector('.slider-img');
-var images = ['a.png', 'b.png', 'c.png'];
+var images = ['a.png', 'b.png', 'c.png', 'd.png', 'e.png', 'f.png', 'g.png', 'h.png', 'i.png', 'j.png'];
 var i = 0;
 
 function prev(){

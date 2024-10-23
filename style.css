@@ -505,7 +505,7 @@ body {
     cursor: pointer;
     color: white;
     background: var(--dark-orange);
-    opacity: 0.20;
+    opacity: 0.80;
     font-size: 20px;
     user-select: none;
 }
@@ -525,7 +525,7 @@ body {
 
   .slider-img {
     width: 60%;
-    max-height: 500px; /* Réduire la hauteur maximale pour les petits écrans */
+    max-height: 200px; /* Réduire la hauteur maximale pour les petits écrans */
   }
 }
 
